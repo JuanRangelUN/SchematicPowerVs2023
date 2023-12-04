@@ -13,7 +13,4 @@ resource "ibm_pi_instance" "test-instance" {
       network_id = data.ibm_pi_public_network.dsnetwork.id
     }
 }
-    provider "ibm" {
-      region    =   "us-south"
-      zone      =   "us-south-1"
-    }
+ 
